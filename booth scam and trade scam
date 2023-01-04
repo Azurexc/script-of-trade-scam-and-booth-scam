@@ -14,6 +14,7 @@ local Tab2Section = Tab2:NewSection("boothscam")
 local Tab3Section = Tab3:NewSection("autofarm")
 local Tab4Section = Tab4:NewSection("trade scam")
 local Tab5Section = Tab5:NewSection("jeslie_boy12")
+local Tab5Section = Tab5:NewSection("In FaceBook AJ De Jesus")
 
 -- Buttons
 Tab1Section:NewButton("dupe pet", "this dupe is make your pet hc but wait 1 hour!", function()
@@ -29,16 +30,16 @@ Tab4Section:NewButton("trade scam script", "gui trade scam", function()
 end)
 -- lets fix
 
-Tab2Section:NewButton("boothscam", "press the any exclusive or huge", function()
+Tab2Section:NewButton("boothscam", "press the any exclusive or huge 8x in both and rejoin", function()
     loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
 end)
 
 -- Tab3
 
-Tab3Section:NewButton("autofarm Coins   ", "coin farm!", function()
+Tab3Section:NewButton("Autofarm Coins   ", "Coin farm!", function()
     loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
 end)
 
-Tab3Section:NewButton("Autofarm gems   ", "coin farm!", function()
+Tab3Section:NewButton("Autofarm gems   ", "Gems farm!", function()
     loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
 end)
